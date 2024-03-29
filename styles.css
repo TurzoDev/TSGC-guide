@@ -140,6 +140,15 @@ h1, h2, h3, h4, p {
   vertical-align: -2px;
 }
 
+.fcolor-am {
+        width: 10px; /* Adjust width as needed */
+  height: 10px; /* Adjust height as needed */
+  border: 2px solid black; /* Black square borders */
+  background-color: #627361; /* Background color */
+  display: inline-block;
+  vertical-align: -2px;
+}
+
 .hidden {
     opacity: 0;
     filter: blur(5px);
