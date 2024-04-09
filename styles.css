@@ -1,16 +1,20 @@
 body {
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    background-image: linear-gradient(62deg, #3a3d40 0%, #181719 100%);
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 500;
+    font-style: normal;
     background: linear-gradient(135deg, 
     #4F6D7A 0%, 
     #3B3B57 25%, 
     #2B1F33 50%, 
-    #723853 75%, 
-    #5c120d 100%);
+    #572C35 75%, 
+    #4B2F26 100%);
+    margin: 0;
+    padding: 0;
 }
 h1, h2, h3, h4, p {
     color: white;
 }
+
 .tsgc-logo {
     border-radius: 50%;
     height: 110px;
@@ -37,6 +41,7 @@ h1, h2, h3, h4, p {
 }
 .profile {
     float: right;
+    border-radius: 5%;
   }
 .end {
     text-align: center;
@@ -167,29 +172,43 @@ h1, h2, h3, h4, p {
 }
 
 .navigationbar {
-    background: #74909c; /* Background color */
-    height: 50px; /* Increase height for better visibility */
-    line-height: 50px; /* Center content vertically */
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add shadow for depth */
+    background: #74909c;
+    height: 50px;
+    line-height: 50px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    animation: fadeIn 1s ease-out; /* Apply fade-in animation */
 }
 
 .navbar {
-    color: white; /* Text color */
-    font-size: 18px; /* Adjust font size */
-    text-align: center; /* Center align text */
-    padding: 0 20px; /* Add padding for better spacing */
+    color: white;
+    font-size: 18px;
+    text-align: center;
+    padding: 0 20px;
 }
 
 .navbar a {
-    color: white; /* Link color */
-    text-decoration: none; /* Remove underline */
-    margin: 0 10px; /* Adjust margin for better spacing */
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
 }
 
 .navbar a:hover {
-    color: #435d68; /* Change color on hover */
+    color: #435d68;
 }
 
 .navbar a:active {
-    color: #435d68; /* Change color on active */
+    color: #435d68;
 }
+
+/* Fade-in Animation */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-50px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
