@@ -1,0 +1,252 @@
+body {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    background: linear-gradient(135deg, 
+    #4F6D7A 0%, 
+    #3B3B57 25%, 
+    #2B1F33 50%, 
+    #572C35 75%, 
+    #4B2F26 100%);
+    margin: 0;
+    padding: 0;
+}
+h1, h2, h3, h4, p {
+    color: white;
+}
+
+.tsgc-logo {
+    border-radius: 50%;
+    height: 110px;
+    vertical-align: -30px;
+    font-weight: 100px;
+}
+.website-top {
+    max-width: fit-content;
+    margin-inline: auto;
+}
+
+.credit {
+    color: grey;
+}
+.desc2-l {
+    text-align: left;
+}
+.q1 {
+    text-align: center;
+}
+.member-f {
+    max-width: fit-content;
+    margin-inline: auto;
+}
+.profile {
+    float: right;
+    border-radius: 5%;
+  }
+.end {
+    text-align: center;
+}
+
+#tsgc-description {
+    font-size: 20px;
+    text-align: center;
+}
+.tsgc-description2 {
+    font-size: 20px;
+    text-align: center;
+}
+.tsgc-description3 {
+    font-size: 20px;
+    text-align: center;
+}
+
+.tsgc-description4 {
+    font-size: 20px;
+    text-align: center;
+}
+.tsgc-description5 {
+    font-size: 20px;
+    text-align: center;
+}
+
+.fcolor-l {
+    width: 10px; /* Adjust width as needed */
+  height: 10px; /* Adjust height as needed */
+  border: 2px solid black; /* Black square borders */
+  background-color: #fad5e6; /* Background color */
+  display: inline-block;
+  vertical-align: -2px;
+}
+
+.fcolor-b {
+    width: 10px; /* Adjust width as needed */
+  height: 10px; /* Adjust height as needed */
+  border: 2px solid black; /* Black square borders */
+  background-color: #880808; /* Background color */
+  display: inline-block;
+  vertical-align: -2px;
+}
+.fcolor-t {
+    width: 10px; /* Adjust width as needed */
+  height: 10px; /* Adjust height as needed */
+  border: 2px solid black; /* Black square borders */
+  background-color: #0d0a12; /* Background color */
+  display: inline-block;
+  vertical-align: -2px;
+}
+
+.fcolor-e {
+    width: 10px; /* Adjust width as needed */
+  height: 10px; /* Adjust height as needed */
+  border: 2px solid black; /* Black square borders */
+  background-color: #76050b; /* Background color */
+  display: inline-block;
+  vertical-align: -2px;
+}
+.fcolor-lm {
+    width: 10px; /* Adjust width as needed */
+  height: 10px; /* Adjust height as needed */
+  border: 2px solid black; /* Black square borders */
+  background-color: #c42722; /* Background color */
+  display: inline-block;
+  vertical-align: -2px;
+}
+.fcolor-lo {
+    width: 10px; /* Adjust width as needed */
+  height: 10px; /* Adjust height as needed */
+  border: 2px solid black; /* Black square borders */
+  background-color: #00fBB0; /* Background color */
+  display: inline-block;
+  vertical-align: -2px;
+}
+.fcolor-el {
+    width: 10px; /* Adjust width as needed */
+  height: 10px; /* Adjust height as needed */
+  border: 2px solid black; /* Black square borders */
+  background-color: #0d0a12; /* Background color */
+  display: inline-block;
+  vertical-align: -2px;
+}
+.fcolor-s {
+    width: 10px; /* Adjust width as needed */
+  height: 10px; /* Adjust height as needed */
+  border: 2px solid black; /* Black square borders */
+  background-color: #705aa2; /* Background color */
+  display: inline-block;
+  vertical-align: -2px;
+}
+
+.fcolor-ar {
+    width: 10px; /* Adjust width as needed */
+  height: 10px; /* Adjust height as needed */
+  border: 2px solid black; /* Black square borders */
+  background-color: #60318f; /* Background color */
+  display: inline-block;
+  vertical-align: -2px;
+}
+
+.fcolor-am {
+        width: 10px; /* Adjust width as needed */
+  height: 10px; /* Adjust height as needed */
+  border: 2px solid black; /* Black square borders */
+  background-color: #627361; /* Background color */
+  display: inline-block;
+  vertical-align: -2px;
+}
+ 
+.hidden {
+    opacity: 0;
+    filter: blur(5px);
+    transform: translateX(-100%);
+    transition: all 1.5s;
+}
+@media (prefers-reduced-motion) {
+    .hidden {
+        transition: none;
+    }
+}
+.show {
+    opacity: 1;
+    filter: blur(0);
+    transform: translateX(0);
+}
+
+.navigationbar {
+    background: #74909c;
+    height: 50px;
+    line-height: 50px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    animation: fadeIn 1s ease-out; /* Apply fade-in animation */
+}
+
+.navbar {
+    color: white;
+    font-size: 18px;
+    text-align: center;
+    padding: 0 20px;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.navbar a:hover {
+    color: #435d68;
+}
+
+.navbar a:active {
+    color: #435d68;
+}
+
+/* Fade-in Animation */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-50px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@media screen and (max-width: 768px) {
+    /* Adjustments for smaller screens (e.g., tablets and mobile phones) */
+
+    /* Navigation bar */
+    .navigationbar {
+        height: auto;
+        line-height: 1.5;
+    }
+
+    /* Navbar links */
+    .navbar {
+        font-size: 16px;
+        padding: 0 10px;
+    }
+
+    /* Reduce logo size */
+    .tsgc-logo {
+        height: 80px;
+    }
+    h1, h2, h3, h4, p {
+        font-size: 16px;
+        margin: 8px 0; /* Adjust spacing between paragraphs */
+    }
+
+    /* Reduce font size for descriptions */
+    .tsgc-description,
+    .tsgc-description2,
+    .tsgc-description3,
+    .tsgc-description4,
+    .tsgc-description5 {
+        font-size: 16px;
+    }
+    .profile {
+        float: right; /* Remove float */
+        margin: 10px auto; /* Center the profile picture horizontally */
+        width: 160px; /* Reduce width for smaller screens */
+    }
+}
